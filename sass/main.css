@@ -1,0 +1,193 @@
+body {
+  font: 100% Roboto, sans-serif;
+  background-color: #87CEFA;
+  margin-top: 140px;
+}
+
+body .container {
+  position: relative;
+  width: 380px;
+  margin: 0px auto;
+  display: block;
+}
+
+body .container .head {
+  position: relative;
+  width: 100%;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #1E90FF;
+}
+
+body .container .head .title::before {
+  content: "";
+  background: url("circle.jpg");
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 18px;
+  float: left;
+  margin-right: 10px;
+}
+
+body .container .head .title {
+  position: absolute;
+  left: 50px;
+  margin-top: 2px;
+  color: #fff;
+}
+
+body .container .head .box__header-icon {
+  margin-left: 330px;
+}
+
+body .container .head .box__header-icon svg {
+  margin-top: 13px;
+  width: 30px;
+  height: 25px;
+}
+
+body .container .head .box__header-icon svg:hover {
+  fill: #FFFFFF;
+}
+
+body .container .chat-messages {
+  position: relative;
+}
+
+body .container .chat-messages .chat {
+  height: 360px;
+  background: #fcfcfe;
+  padding: 20px;
+  font-size: 12.5px;
+}
+
+body .container .chat-messages .chat-content h3 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body .container .chat-messages .chat-content h3::after {
+  display: inline-block;
+  margin: 0 0 5px 10px;
+  height: 1px;
+  content: " ";
+  background-color: #999;
+  width: 140px;
+}
+
+body .container .chat-messages .chat-content h3::before {
+  display: inline-block;
+  margin: 0 10px 5px 0;
+  height: 1px;
+  content: " ";
+  background-color: #999;
+  width: 140px;
+}
+
+body .container .chat-messages .chat-content > span {
+  margin-bottom: 13px;
+}
+
+body .container .chat-messages .chat-content span.friend {
+  position: relative;
+  width: 70%;
+  height: auto;
+  display: block;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 20px;
+  background-color: #2f89b3;
+  color: black;
+}
+
+body .container .chat-messages .chat-content span.friend .time {
+  position: absolute;
+  display: block;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+body .container .chat-messages .chat-content span.you {
+  position: relative;
+  float: right;
+  width: 70%;
+  height: auto;
+  background: #5850c0;
+  display: inline-block;
+  padding: 10px;
+  padding-bottom: 25px;
+  color: black;
+  background-color: rgba(176, 175, 184, 0.5);
+}
+
+body .container .chat-messages .chat-content span.you span.time {
+  position: absolute;
+  display: block;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+body .container .chat-messages div.chat div.chat-content span.friend.first {
+  border-radius: 2px 15px 15px 15px;
+}
+
+body .container .chat-messages div.chat div.chat-content span.friend.last {
+  width: 100px;
+  float: left;
+  height: auto;
+  color: black;
+  background-color: #2f89b3;
+  border-radius: 2px 15px 15px 15px;
+}
+
+body .container .chat-messages div.chat div.chat-content span.you.first {
+  border-radius: 15px 2px 15px 15px;
+}
+
+body .container .chat-messages div.chat div.chat-content span.you.ban {
+  color: black;
+  background-color: red;
+  border-radius: 10px 2px 10px 10px;
+}
+
+body .container .msg-box {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body .container .msg-box .ip-msg {
+  width: 75%;
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+}
+
+body .container .msg-box span.btn-group {
+  right: 5px;
+  top: 10px;
+  margin: auto;
+  display: inline-block;
+}
+
+body .container .msg-box span.btn-group h2 {
+  color: #1c6dca;
+  font-size: 15px;
+  padding: 0 7px;
+}
+/*# sourceMappingURL=main.css.map */

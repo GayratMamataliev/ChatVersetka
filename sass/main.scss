@@ -1,0 +1,258 @@
+$font-stack: Roboto, sans-serif;
+$background-color:#87CEFA;
+$position:relative;
+$width1:100%;
+$display:inline-block;
+
+body{
+    font: 100% $font-stack;
+    background-color: $background-color;
+    margin-top: 140px;
+
+
+    .container
+    {
+      position: $position;
+      width: 380px;
+      
+      
+      
+      margin: 0px auto;
+     
+      display: block;
+      .head
+      {
+        
+        position: $position;
+        
+        width: $width1;
+        
+       
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        background: #1E90FF;
+        
+        .title::before {
+          
+          content: "";
+          background: url("circle.jpg");
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          margin-top: 18px;
+          float: left;
+          margin-right: 10px;
+          
+          
+      }
+        .title
+        {
+          position: absolute;
+          left: 50px;
+          margin-top: 2px;
+          color: #fff;
+         
+        }
+        
+        
+
+      .box__header-icon { 
+          margin-left: 330px;
+          svg{
+            margin-top: 13px;
+            width: 30px;
+            height: 25px;
+          &:hover {
+          fill: 	#FFFFFF;
+      }
+    }
+    }
+   }
+    
+    
+    
+    
+.chat-messages
+    {
+      position: relative;
+    .chat
+    {
+      
+      
+      height: 360px;
+      background: #fcfcfe;
+      
+      padding: 20px;
+      font-size: 12.5px;
+    
+    }
+    .chat-content{
+    h3{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+      h3::after{
+        display: inline-block;
+        margin: 0 0 5px 10px;
+        height: 1px;
+        content: " ";
+        
+        background-color: #999;
+        width: 140px;
+      }
+      h3::before{
+        display: inline-block;
+        margin: 0 10px 5px 0;
+        height: 1px;
+        content: " ";
+        
+        background-color: #999;
+        width: 140px;
+      }
+    
+  }
+    .chat-content > span
+    {
+      margin-bottom: 13px;
+    }
+   .chat-content span.friend
+    {
+      position: relative;
+      width: 70%;
+      height: auto;
+      display: block;
+      background: #fff;
+      padding: 10px;
+      padding-bottom: 20px;
+      background-color: rgb(47, 137, 179);
+      color: black;
+
+    .time
+    {
+      position: absolute;
+      display: block;
+      right: 0;
+      margin-top: 5px;
+      margin-right: 10px;
+      font-size: 10px;
+      font-weight: 500;
+      color: black;
+    }
+  
+}
+    .chat-content span.you
+    {
+      position: relative;
+      float: right;
+      width: 70%;
+      height: auto;
+      background: #5850c0;
+      display: $display;
+      padding: 10px;
+      padding-bottom: 25px;
+      color: black;
+      background-color: rgba(176, 175, 184, 0.5);
+    
+     
+    span.time
+    {
+      position: absolute;
+      display: block;
+      right: 0;
+      margin-top: 5px;
+      margin-right: 10px;
+      font-size: 10px;
+      font-weight: 500;
+      color: black;
+    }
+}
+
+
+div.chat div.chat-content span.friend.first
+    {
+      border-radius: 2px 15px 15px 15px;
+    }
+    
+    div.chat div.chat-content span.friend.last
+    {
+      width: 100px;
+
+      float: left;
+      
+      height: auto;
+     
+      
+      
+      color: black;
+      background-color: rgb(47, 137, 179);
+     
+      border-radius: 2px 15px 15px 15px;
+    }
+    
+
+
+
+
+    div.chat div.chat-content span.you.first
+    {
+      border-radius: 15px 2px 15px 15px;
+    }
+    
+    div.chat div.chat-content span.you.ban
+    {
+      color: black;
+      background-color: red;
+      border-radius: 10px 2px 10px 10px;
+    }
+}
+    
+    .msg-box
+    {
+      position: absolute;
+      width: $width1;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      
+    
+    
+    .ip-msg
+    {
+      width: 75%;
+      font-size: 14px;
+      padding: 15px;
+      
+      
+      border: none;
+      
+    }
+
+    
+    
+    
+    span.btn-group
+    {
+      
+      right: 5px;
+      top: 10px;
+      margin: auto;
+      display: inline-block;
+      
+      
+      
+     h2
+    {
+      color: rgb(28, 109, 202);
+      font-size: 15px;
+      
+      
+      padding: 0 7px;
+    }
+  }
+}
+}
+}
